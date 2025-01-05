@@ -1,5 +1,3 @@
-// components/FeedbackForm.tsx
-
 "use client";
 import React, { useState } from "react";
 import SectionHeading from "../../SectionHeading"; // Assuming you have this component
@@ -25,6 +23,16 @@ const FeedbackForm = () => {
     e.preventDefault();
     // Handle form submission logic here
     console.log(formData);
+
+    // Close the form after submission
+    setFormVisible(false);
+
+    // Optionally, clear the form data after submission
+    setFormData({
+      name: "",
+      email: "",
+      message: "",
+    });
   };
 
   return (
