@@ -1,7 +1,7 @@
-import React from 'react';
-import { navlinks } from '@/constants/constant';
-import Link from 'next/link';
-import { CgClose } from 'react-icons/cg';
+import React from "react";
+import { navlinks } from "@/constants/constant";
+import Link from "next/link";
+import { CgClose } from "react-icons/cg";
 
 // Type for the props
 type Props = {
@@ -11,7 +11,7 @@ type Props = {
 
 const MobileNav = ({ closeNav, showNav }: Props) => {
 
-  const navOpen = showNav ? 'translate-x-0' : 'translate-x-[-100%]';
+  const navOpen = showNav ? "translate-x-0" : "translate-x-[-100%]";
 
   return (
     <div>
@@ -29,7 +29,7 @@ const MobileNav = ({ closeNav, showNav }: Props) => {
         })}
 
         {/* Close button */}
-        <CgClose onClick={closeNav} className='absolute top-[0.7rem] right-[1.4rem] sm:w-8 sm:h-8 h-6 text-white' />
+        <CgClose onClick={closeNav} className="absolute top-[0.7rem] right-[1.4rem] sm:w-8 sm:h-8 h-6 text-white" />
       </div>
     </div>
   );

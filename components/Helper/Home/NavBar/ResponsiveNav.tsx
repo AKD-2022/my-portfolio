@@ -1,8 +1,8 @@
 "use client";
-import React from 'react';
-import Nav from '@/components/Helper/Home/NavBar/Nav';
-import MobileNav from '@/components/Helper/Home/NavBar/MobileNav';
-import { useState } from 'react';
+import React from "react";
+import Nav from "@/components/Helper/Home/NavBar/Nav";
+import MobileNav from "@/components/Helper/Home/NavBar/MobileNav";
+import { useState } from "react";
 
 const ResponsiveNav = () => {
 

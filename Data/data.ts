@@ -14,7 +14,7 @@ export const BaseInfo = {
     project: "200+",
     website: "100+",
     profilePic: "/images/hero.jpg",
-    name:'Akash Dongre'
+    name:"Akash Dongre"
   };
   
   export const experienceData = [

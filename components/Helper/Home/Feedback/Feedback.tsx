@@ -1,6 +1,6 @@
 // components/FeedbackForm.tsx
 
-'use client';
+"use client";
 import React, { useState } from "react";
 import SectionHeading from "../../SectionHeading"; // Assuming you have this component
 import { CgClose } from "react-icons/cg"; // Close icon from react-icons
@@ -53,7 +53,7 @@ const FeedbackForm = () => {
             />
           </div>
 
-          <h2 className="text-center text-3xl font-semibold text-white mb-8">We'd love to hear your feedback</h2>
+          <h2 className="text-center text-3xl font-semibold text-white mb-8">We would love to hear your feedback</h2>
 
           <form onSubmit={handleSubmit} className="space-y-6">
             <div>
