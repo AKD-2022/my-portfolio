@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import Image from 'next/image';
+
 import { navlinks } from '@/constants/constant';
 import Link from 'next/link';
 import { HiBars3BottomRight } from 'react-icons/hi2';
